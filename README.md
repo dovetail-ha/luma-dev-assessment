@@ -38,6 +38,6 @@ To submit the assessment, run the `npm run create-submission` command. You will 
 
 ## Criteria
 You will be evaluated on the following criteria:
-- **Unit Tests** - There are 26 unit tests in [app.spec.js](./app.spec.js). You will be evaluated on the percentaged of passing unit tests, and you can receive partial credit.
+- **Unit Tests** - There are 26 unit tests in [app.spec.js](./app.spec.js). You will be evaluated on the percentage of passing unit tests, and you can receive partial credit.
 - **Linting** - Please make sure you follow the linting rules for the project. You can run the `npm run lint` command to check for warnings and errors.
 - **Code Quality** - The quality of the code, including complexity, duplication, and maintainability will be taken into consideration.
