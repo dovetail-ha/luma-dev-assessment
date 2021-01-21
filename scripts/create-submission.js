@@ -36,7 +36,7 @@ const buildZip = (name) => {
   });
 
   archive.pipe(output);
-  archive.glob('*', { cwd: path.join(__dirname, '../'), ignore: ['node_modules/**', '**/*.zip'] });
+  archive.glob('**/*.*', { cwd: path.join(__dirname, '../'), ignore: ['node_modules/**', '**/*.zip'] });
   archive.finalize();
 };
 
